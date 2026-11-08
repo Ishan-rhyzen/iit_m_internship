@@ -2,6 +2,8 @@
 
 This repository contains two Jupyter notebooks for training and evaluating hybrid deep learning models to reconstruct missing values in satellite-derived chlorophyll-a (Chl-a) observations.
 
+project title :- Development of hybrid machine learning models for gap-filling of satellite derived chlorophyll-a observations.
+
 The project was conducted as part of the IASc–INSA–NASI Summer Research Fellowship Programme 2025 at IIT Madras.
 ## Models
 
