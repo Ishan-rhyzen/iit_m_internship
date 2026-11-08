@@ -18,15 +18,19 @@ CCM uses convolutional branches for both spatial and temporal features. CMM uses
 
 The study addresses gaps in satellite-derived Chl-a observations caused by factors such as cloud cover and atmospheric interference. The report describes a regional study area around the Palk Strait–Gulf of Mannar corridor and uses daily ESA Ocean Colour Climate Change Initiative (OC-CCI) Version 6 Chl-a data for 2014–2024.
 
-## Reported test-set comparison
+## Reported test results
 
-| Model | RMSE (mg m⁻³) | MAE (mg m⁻³)
-|---|---:|---:|---:|
-| CCM (CNN–CNN–MLP) | 0.1503 | 0.0823 
-| CMM (CNN–MLP–MLP) | 0.2105 | 0.1031 
+On the test split, **CCM (CNN–CNN–MLP)** achieved:
 
-These are the test-set results reported in the project report. The report found that CCM generalized more consistently across the training, validation, and test splits.
+- RMSE: 0.1503 mg m⁻³
+- MAE: 0.0823 mg m⁻³
 
+**CMM (CNN–MLP–MLP)** achieved:
+
+- RMSE: 0.2105 mg m⁻³
+- MAE: 0.1031 mg m⁻³
+
+These results are reported in the project report. CCM performed more consistently across the training, validation, and test splits.
 ## Repository contents and scope
 
 This repository contains the two notebooks above, which cover model training and evaluation. It does not include the source dataset or a separate inference notebook.
